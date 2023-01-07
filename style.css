@@ -11,6 +11,8 @@ body{
 
 }
 
+/* HEADER  PART START */
+
 .header{
     min-height:908px ;
     background-image: url('./backround-img/banner3.png');
@@ -62,6 +64,9 @@ hr{
     margin-top: 10px;
  }
 
+
+
+  
 .section-1 div img{
      
     border-radius: 50%;
@@ -103,7 +108,15 @@ h1{
 
 }
 
-.resolution{
+ /* HEADER PART END */
+
+
+/* MAIN SECTION START */
+
+    
+    
+
+ .resolution{
     max-width: 25%;
     max-height: 185px;
     margin: 80px auto;
@@ -116,11 +129,10 @@ h1{
     color: aliceblue;
     border-style: none;
     border-radius: 10px 30px;
+    }
 
 
-    
-    
-}
+ 
 
 .extra-section{
     display: flex;
@@ -224,6 +236,11 @@ margin-bottom: 15px;
     font-weight: 600;
     color: #0062AD;
 }
+
+/* MAIN SECTION END */
+
+
+/* FOOTER  PART START */
 .footer{
     width: 100%;
     min-height: 577px;
@@ -240,12 +257,14 @@ margin-bottom: 15px;
     height: 53px;
 }
 .footer p{
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
 }
 
  
 .footer h3{
+    text-align: left;
     font-weight: 700;
 font-size: 25px;
 line-height: 29px;
@@ -270,3 +289,5 @@ margin-bottom: 40px;
     font-weight: 600;
 
 }
+
+/* FOOTER PART END */
