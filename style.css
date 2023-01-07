@@ -16,7 +16,7 @@ body{
     height: 950px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('/backround-img/banner3.png');
+    background-image: url('./backround-img/banner3.png');
     background-position: top;
 }
 
@@ -75,7 +75,7 @@ h1{
     padding-top:140px;
     font-weight: 700;
     text-align:center;
-    background-image:  linear-gradient( to top, hsla(206, 99%, 28%, 0.959),hsla(0, 0%, 100%, 0)),url('/backround-img/download.jpg');
+    background-image:  linear-gradient( to top, hsla(206, 99%, 28%, 0.959),hsla(0, 0%, 100%, 0)),url('./backround-img/download.jpg');
     background-size: 100%;
     background-position: top;
     color: aliceblue;
@@ -172,7 +172,7 @@ margin-bottom: 15px;
     padding-left: 60px;
     padding-top: 60px;
     color: aliceblue;
-    background-image: linear-gradient( to right,hsla(206, 100%, 34%, 0.644),hsla(0, 0%, 100%, 0)),url('/icons/watch.png');
+    background-image: linear-gradient( to right,hsla(206, 100%, 34%, 0.644),hsla(0, 0%, 100%, 0)),url('./icons/watch.png');
      
 }
    
